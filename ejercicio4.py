@@ -38,13 +38,13 @@ class Producto:
         e = nuevo_codigo.index("-")
         print(nuevo_codigo[:e])
 
-try: 
-    px = Producto("zapatilla","TAILANDIA-0002-2022")
-    print("Este es el print del objet: ",px)
-    px.verificar_lote("TAILANDIA-0002-2022")
-    px.verificar_pais("TAILANDIA-0002-2022")
-    print(__name__)
-except Exception as E:
-    print(E)
+
+px = Producto("zapatilla","TAILANDIA-0002-2022")
+print("Este es el print del objet: ",px)
+px.verificar_lote("TAILANDIA-0002-2022")
+px.verificar_pais("TAILANDIA-0002-2022")
+print(__name__)
+
+
 
 ## describan una clase x sus atributos y métodos. 
