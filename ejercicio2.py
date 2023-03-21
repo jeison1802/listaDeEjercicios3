@@ -25,8 +25,7 @@ class Catalogo:
     def mostrar(self):
         for p in self.productos:
             print(p)
-        print(self.productos)
-           ## print(f"La película {p.nombre} con duracion de {p.precio} y de la marca {p.marca}")
+            print(f"El producto {p.nombre} con precio de {p.precio} y de la marca {p.marca}")
 
 p1 = Productos('zapatilla',300,'nike') 
 p2 = Productos('celular',320,'Apple')
